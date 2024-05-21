@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.form1 {
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 20px;
+    /* width: 43%; */
+}
+
+.first {
+    background-color: #a5ffe151;
+    padding-top: 50px;
+    padding-bottom: 190px;
+}
+
+.first button {
+    background-color: #18d476ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 50px;
+    margin-bottom: 30px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.features .card {
+    border: 2px solid #18d476ff;
+    border-radius: 10px;
+    /* width: 170px; */
+}
+
+.features {
+    margin-top: -210px;
+    margin-bottom: 20px;
+}
+
+.about {
+    /* padding-top: 50px; */
+    padding-bottom: 50px;
+    /* height: 50px; */
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.about button {
+    background-color: #18d476ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.about button:hover {
+    background-color: rgb(61, 61, 61);
+}
+
+@media (max-width: 991px) {
+    .about img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        /* margin-left: 110px; */
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .contact img {
+        max-width: 95%;
+        height: auto;
+    }
+
+    .footer2 {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+.experience {
+    padding-bottom: 50px;
+}
+
+.experience img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.experience button {
+    background-color: #18d476ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.experience button:hover {
+    background-color: rgb(61, 61, 61);
+}
+
+
+.contact {
+    background-color: #a5ffe151;
+    padding-bottom: 20px;
+}
+
+.contact img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.contact button {
+    background-color: #18d476ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.FAQ {
+    /* padding-top: 50px; */
+    padding-bottom: 100px;
+    /* height: 50px; */
+}
+
+.FAQ img {
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.FAQ button {
+    background-color: #18d476ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.FAQ button:hover {
+    background-color: rgb(61, 61, 61);
+}
+
+footer {
+    height: 80px;
+}
+
+footer button {
+    background-color: #1bb600;
+    border: none;
+    padding: 8px 16px;
+    margin: -20px;
+    border-radius: 11px;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.footer2 {
+    margin-right: -100px;
+    margin-left: 120px;
+}
+
+
+
+
+
+.card {
+    border-radius: 20px;
+    /* padding: 10px; */
+    border: none;
+    background-color: #ffffffd8;
+    border: 1px solid rgb(192, 192, 192);
+    /* box-shadow: 2px 2px 12px 2px grey; */
+
+}
+
+.card img {
+    border-radius: 5px;
+}
+
+.project {
+    margin-left: auto;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: black;
+}
+
+.checked {
+    color: orange;
+}
+
+.process {
+    /* height: 350px; */
+    background-color: #a5ffe151;
+}
+
+.process button {
+    background-color: #1bb600;
+    border: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+/* .play-btn {
+    background-color: #1bb600;
+    width: 83px;
+    padding: 14px;
+    border-radius: 80px;
+    height: 79px;
+    padding-left: 32px;
+    color: white;
+    margin-top: -318px;
+    margin-left: 225px;
+    cursor: pointer;
+} */
+
+.play-btn {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 32%;
+        top: 373%;
+        color: white;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        font-size: 26px;
+        /* background-color: var(--thm-hover); */
+        text-decoration: none;
+}
+
+.FAQ button {
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    border-style: dashed;
+    border-color: #1bb600;
+    /* width: 465px; */
+}
+
+.FAQ button:hover {
+    background-color: white;
+}
+
+.accordion-body {
+    padding: 1px;
+}
+
+.FAQ-accordion {
+    border-style: dashed;
+    border-color: #1bb600;
+    width: 465px;
+}
+
+footer p {
+    font-size: larger;
+}
+
+footer ul {
+    font-size: larger;
+}
